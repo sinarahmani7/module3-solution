@@ -94,6 +94,9 @@ section div div p{
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
 
+  #collapsable-nav{
+    background-color: #816a29;
+  }
   #collapsable-nav a {
     font-size: 1.2em;
   }
