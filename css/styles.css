@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #4B543B;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #B57F50;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  height: 80px;
+}
+.navbar-brand h1 {
+  font-family: 'Lora', serif;
+  color: #B4D2BA;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 5px;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #DCE2AA;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: #DCE2AA;
+  color: #4B543B;
+}
+#nav-list .active a{
+  color: #4B543B;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+/* END HEADER */
+section div{
+  padding: 10px;
+}
+section div div{
+  background-color: #cccccc;
+  border-radius: 15px;
+  color: black;
+}
+section div div h3{
+  font-weight: bold;
+  font-size: 1.8em;
+}
+section div div p{
+  font-size: .9em;
+}
+
+
+
+
+
+
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+  #collapsable-nav a {
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { 
+    font-size: 1em;
+    margin-right: 5px;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+  .navbar-brand h1 {
+    font-size: 8vw;
+  }
+
+
+  .col-xxs-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 100%;
+  }
+}
+
+
+
